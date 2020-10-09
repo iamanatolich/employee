@@ -3,8 +3,8 @@
 return [
     'db' => [
         'host' => 'localhost',
-        'user' => 'alexey',
-        'password' => 'Gfhjkm45',
-        'name' => 'employee'
+        'user' => 'db-user',
+        'password' => 'db-pass',
+        'name' => 'db-name'
     ]
 ];
