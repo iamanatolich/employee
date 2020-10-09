@@ -82,6 +82,5 @@ use Project\Assets\Functions;
 
 
     </div>
-<div align="center">footer</div>
 </body>
 </html>
