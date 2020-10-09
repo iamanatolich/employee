@@ -145,7 +145,7 @@
                 $login = trim($login);
                 $password = trim($password);
 
-                if(!$login || !$password || !$name || !$surname) {
+                if(!$login || !$password || !$name) {
                     $_SESSION["flashErrorMessage"] = "Заполните все поля";
                     $this->redirect("/users/edit");
                 }
@@ -227,7 +227,7 @@
                 $login = trim($login);
                 $password = trim($password);
 
-                if(!$login || !$password || !$name || !$surname) {
+                if(!$login || !$password || !$name) {
                     $_SESSION["flashErrorMessage"] = "Заполните все поля";
                     $this->redirect("/users/edit/".$params['id']);
                 }
